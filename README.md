@@ -1,6 +1,8 @@
 # Bass-Guitar-Augmentation
 A Max patch built to detect bass guitar playing technique, through connection with the Wekinator ML Application, allowing audio effects/augmentations to be triggered.
 
+Requires packages: FluidCorpusManipulation, RNBO Guitar Pedals, Upshot, zsa.descriptors.
+
 The Max Patch allows for either Plucking Styles (PS) or Left-hand Expression Styles (ES) to be detected, using the corresponding Wekinator file.
 
 NOTE: The Machine Learning (SVM) algorithms in the Wekinator have been trained using my Fender Jazz Bass, the classification is unlikely to be as effective when using different bass guitars. However, the Wekinator classifiers can easily be retrained using a different Bass Guitar, by feeding it a number of samples of each playing technique, across all frets of the instrument.
